@@ -1,13 +1,12 @@
-/* General Styles */
+
 body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
-    background: #000000; /* Black background */
-    color: white; /* White text */
+    background: #000000; 
+    color: white;
 }
 
-/* Gallery styling */
 .gallery {
     display: flex;
     justify-content: center;
@@ -20,17 +19,17 @@ body {
     width: 180px;
     height: auto;
     border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(255, 255, 255, 0.1); /* Subtle white shadow */
+    box-shadow: 0 2px 4px rgba(255, 255, 255, 0.1);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .gallery img:hover {
     transform: scale(1.05);
-    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2); /* Enhanced white shadow */
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2);
 }
 
 header {
-    background: #1a1a1a; /* Dark gray for header */
+    background: #1a1a1a; 
     padding: 20px 0;
     text-align: center;
 }
@@ -99,15 +98,15 @@ header nav ul li a:hover {
     font-size: 1rem;
     line-height: 1.6;
     margin-bottom: 30px;
-    color: #f0f0f0; /* Soft white text */
+    color: #f0f0f0;
 }
 
 .hero-image img {
     width: 300px;
     height: 300px;
     border-radius: 50%;
-    border: 5px solid white; /* White border */
-    box-shadow: 0 4px 10px rgba(255, 255, 255, 0.5); /* White shadow */
+    border: 5px solid white; 
+    box-shadow: 0 4px 10px rgba(255, 255, 255, 0.5); 
 }
 
 /* Section Styles */
@@ -121,13 +120,13 @@ section {
 section h2 {
     font-size: 2rem;
     margin-bottom: 20px;
-    color: white; /* White section headings */
+    color: white; 
 }
 
 section p {
     font-size: 1rem;
     line-height: 1.6;
-    color: #f0f0f0; /* Soft white text */
+    color: #f0f0f0;
 }
 
 .skills-list {
@@ -139,10 +138,10 @@ section p {
 }
 
 .skills-list li {
-    background: #1a1a1a; /* Dark gray background */
+    background: #1a1a1a; 
     padding: 10px 20px;
     border-radius: 5px;
-    color: white; /* White text */
+    color: white;
 }
 
 .projects-gallery {
@@ -155,13 +154,12 @@ section p {
     width: 200px;
     height: 150px;
     border-radius: 5px;
-    box-shadow: 0 4px 6px rgba(255, 255, 255, 0.3); /* Subtle white shadow */
+    box-shadow: 0 4px 6px rgba(255, 255, 255, 0.3); 
 }
 
 .project p {
     margin-top: 10px;
-    color: #f0f0f0; /* Soft white text */
-}
+    color: #f0f0f0;
 
 img {
     width: 300px;
@@ -175,53 +173,52 @@ img:hover {
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
 }
 
-/* Footer */
+
 footer {
-    background: #1a1a1a; /* Dark gray footer */
+    background: #1a1a1a; 
     text-align: center;
     padding: 15px 0;
     font-size: 0.9rem;
-    color: #f0f0f0; /* Soft white text */
+    color: #f0f0f0; 
 }
 
 footer p {
     margin: 0;
 }
 
-/* Social Links */
+
 .social-links a {
     font-size: 2rem;
-    color: white; /* White icons */
+    color: white; 
     margin: 0 10px;
     transition: color 0.3s ease, transform 0.3s ease;
 }
 
 social-links a:hover {
-    color: #f0f0f0; /* Slightly lighter white hover effect */
+    color: #f0f0f0; 
     transform: scale(1.1);
 }
 
 .social-links a img {
-    width: 40px; /* Set the width of the icons */
-    height: 40px; /* Set the height of the icons */
-    border-radius: 50%; /* Optional: Make the icons circular */
-    box-shadow: 0 2px 4px rgba(255, 255, 255, 0.1); /* Subtle white shadow */
+    width: 40px;
+    height: 40px; 
+    border-radius: 50%; 
+    box-shadow: 0 2px 4px rgba(255, 255, 255, 0.1); 
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .social-links a:hover img {
-    transform: scale(1.1); /* Slightly enlarge the icon on hover */
-    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2); /* Enhanced white shadow */
+    transform: scale(1.1); 
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2); 
 }
 
-/* Contact Form Styling */
 .contact-form {
     max-width: 600px;
     margin: 30px auto;
     padding: 20px;
-    background: #1a1a1a; /* Dark gray background */
+    background: #1a1a1a; 
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Subtle shadow */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); 
     text-align: left;
 }
 
@@ -229,7 +226,7 @@ social-links a:hover {
     display: block;
     margin-bottom: 8px;
     font-weight: bold;
-    color: #f0f0f0; /* Soft white text */
+    color: #f0f0f0; 
 }
 
 .contact-form input,
@@ -237,9 +234,9 @@ social-links a:hover {
     width: 100%;
     padding: 12px;
     margin-bottom: 20px;
-    border: 1px solid #333; /* Darker border */
+    border: 1px solid #333; 
     border-radius: 8px;
-    background: #2a2a2a; /* Slightly lighter gray */
+    background: #2a2a2a; 
     color: white;
     font-size: 1rem;
     transition: border-color 0.3s ease;
@@ -247,12 +244,12 @@ social-links a:hover {
 
 .contact-form input:focus,
 .contact-form textarea:focus {
-    border-color: #00d4ff; /* Bright blue focus */
+    border-color: #00d4ff; 
     outline: none;
 }
 
 .contact-form button {
-    background: #00d4ff; /* Bright blue */
+    background: #00d4ff; 
     color: white;
     padding: 12px 20px;
     border: none;
@@ -263,11 +260,10 @@ social-links a:hover {
 }
 
 .contact-form button:hover {
-    background: #008bb5; /* Darker blue on hover */
-    transform: scale(1.05); /* Slightly enlarge on hover */
+    background: #008bb5; 
+    transform: scale(1.05); 
 }
 
-/* Social Links Section */
 .social {
     margin: 40px 0;
     text-align: center;
