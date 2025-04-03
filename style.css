@@ -65,10 +65,10 @@ header nav ul li a {
 }
 
 header nav ul li a:hover {
-    color: #f0f0f0; /* Slightly lighter white hover effect */
+    color: #f0f0f0; 
 }
 
-/* Hero Section */
+
 .hero {
     display: flex;
     align-items: center;
@@ -85,13 +85,13 @@ header nav ul li a:hover {
 .hero-content h2 {
     font-size: 2.5rem;
     margin-bottom: 10px;
-    color: white; /* White heading */
+    color: white;
 }
 
 .hero-content h3 {
     font-size: 1.5rem;
     margin-bottom: 20px;
-    color: #d9d9d9; /* Light gray subheading */
+    color: #d9d9d9;
 }
 
 .hero-content p {
@@ -109,7 +109,6 @@ header nav ul li a:hover {
     box-shadow: 0 4px 10px rgba(255, 255, 255, 0.5); 
 }
 
-/* Section Styles */
 section {
     padding: 50px 20px;
     max-width: 1200px;
